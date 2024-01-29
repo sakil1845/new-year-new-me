@@ -9,7 +9,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
-
+    margin: 230px 130px;
 }
 
 
@@ -92,11 +92,11 @@ header {
 .section-img {
     /* border-radius: 527px;
     background: rgba(241, 91, 34, 0.20); */
-    margin-left: 275px;
-   
+    margin-left: 25px;
+
 }
 
-.section-content{
+.section-content {
     margin-right: 320px;
     margin-left: 0;
     text-align: left;
@@ -110,18 +110,76 @@ header {
     font-weight: 700;
     margin-right: 128px;
     margin-bottom: 24px;
-    
+
 
 }
-.section-content-des{
+
+.section-content-des {
     color: #444343;
     margin-bottom: 16px;
     line-height: 26px;
 }
 
 
-.section-content-info li{
+.section-content-info li {
     list-style: square;
     text-align: left;
     margin-left: 20px;
+}
+
+/* my plane section */
+
+.plane-container {
+    margin: 130px 0;
+}
+
+.plane-info {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.plane-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plane-content {
+    text-align: center;
+}
+
+
+.plane-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+
+.plan-description {
+    color: #737272;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+/* think section */
+
+.think-container {
+    width: 1140px;
+    height: 300px;   
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+
+.think-content {
+    text-align: left;
+    margin-left: 100px;
+    padding: 60px 60px 60px 60px;
 }
